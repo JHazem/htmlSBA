@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Job Search</title>
+  </head>
+  <body>
+    <header>
+        <div>
+            <h1 class="text-center">Job Search</h1>
+        </div> 
+        <div class="text-center mt-5">
+         <a href="profile.html" class="btn btn-primary">Profile</a>
+         <a href="login.html" class="btn btn-danger">Exit</a>
+       </div>
+            
+       </header>
+    <main>
+      <div class="container mt-5">
+        <div class="form-group">
+          <label for="categorySelect">Select a category:</label>
+          <select class="form-control" id="categorySelect">
+            <option>All</option>
+            <option>IT</option>
+            <option>Marketing</option>
+            <option>Sales</option>
+            <option>Human Resources</option>
+          </select>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Job Title</th>
+              <th>Company</th>
+              <th>Location</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Software Engineer</td>
+              <td>TEKsystem</td>
+              <td>CA</td>
+              <td>IT</td>
+            </tr>
+            <tr>
+              <td>Marketing Manager</td>
+              <td>Per Scholas</td>
+              <td>IL</td>
+              <td>Marketing</td>
+            </tr>
+            <tr>
+              <td>Sales Representative</td>
+              <td>Apple</td>
+              <td>MN</td>
+              <td>Sales</td>
+            </tr>
+            <tr>
+              <td>HR Manager</td>
+              <td>Microsoft</td>
+              <td>WA</td>
+              <td>Human Resources</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
